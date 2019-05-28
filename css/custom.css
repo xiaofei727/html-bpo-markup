@@ -1,0 +1,156 @@
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.thumbnail {
+	padding: 0px;
+}
+
+a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+    border-color: transparent;
+}
+
+#carousel img {
+    left: 0;
+}
+
+.navbar-default {
+	border-color: white;
+	background-color: transparent;
+    /* background-color: #f8f8f8; */
+    /* border-color: #e7e7e7; */
+}
+
+.navbar-collapse {
+	border-top: none;
+	padding-right: 0px;
+	padding-left: 0px;
+	box-shadow: none;
+
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.banner #left-img {
+	width: 39%;
+	float: left;
+	left: 0px;
+	display: table-cell
+}
+
+.banner #right-carousel {
+	width: 61%;
+	float: right;
+	display: table-cell
+}
+
+.banner img {
+    display: block;
+    height: auto;
+    left: 0;
+    height: 42vh;
+}
+
+.carousel .item {
+      height: 42vh;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 42vh;
+}
+
+.carousel-control {
+	z-index: 90;
+}
+
+/*.flexrow {
+  display: flex;
+}
+
+.flexcol {
+  flex: 1;
+  
+  padding: 1em;
+  border: solid;
+}*/
+
+.banner .holder {
+	width: calc(39% - 12vw);
+	left: 7vw;
+}
+
+.banner .holder .container{
+	width: 100%;
+}
+
+.banner .caption {
+    padding: 10px 0px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.banner #left-img {
+		width: 100%;
+		float: left;
+		left: 0px;
+		display: table-cell
+	}
+
+	.banner #right-carousel {
+		width: 100%;
+		float: right;
+		display: table-cell
+	}
+
+	.banner img {
+	    display: block;
+	    height: auto;
+	    left: 0;
+	    height: 30vh;
+	    min-height: 162px;
+	}
+
+	.carousel .item {
+	   height: 30vh;
+	   min-height: 162px;
+	}
+
+	.item img {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    min-height: 162px;
+	}
+
+	.banner .holder {
+		width: 100%;
+		top: 25%;
+	}
+
+	.banner .holder .container{
+		width: 100%;
+	}
+
+	.banner .caption {
+	    padding: 10px 30px;
+	}
+}
